@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, section {
+  margin: 0;
+  padding: 0;
+  height: 100%
+  width: 100%;
+}
+
+body {
+  background-color: #efefef;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 7px 24px;
+}
+
+aside {
+  text-align: right;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.icon-text {
+  font-size: 20px;
+  color: #8b8b8b;
+}
+
+.cast {
+  color: #f2f2f2;
+}
+
+.cast-header {
+  color: #4d4d4d;
+  font-size: 35px;
+}
+
+.head-icon {
+  height: 50px;
+}
+
+.admin {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  letter-spacing: 3px;
+}
+
+.nav {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-top: -41px;
+  color: white;
+}
+
+nav p {
+  margin-right: 50px;
+}
+
+.logo {
+  height: 69px;
+  width: 191px;
+}
+
+.sub-header {
+  display: inline-block;
+  height: 100px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  background-color: #efefef;
+}
+
+.cards-container {
+  height: 100%;
+  margin-left: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  background-clip: white;
+}
+.card {
+  position: relative;
+  width: 330px;
+  height: 450px;
+  margin: 7px;
+  border: 2px solid #efefef;
+  background-color: white;
+}
+.card-top {
+  color: white;
+  height: 36%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kills {
+  display: inline-block;
+  float: right;
+  margin-right: 27px;
+  margin-top: 8px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.eight {
+  width: 85px;
+}
+
+a {
+  display: block;
+  border: 2px solid #efefef;
+  width: 230px;
+  height: 56px;
+  padding-top: 8px;
+  padding-left: 8px;
+  background-color: #efefef;
+  color: grey;
+}
+
+.card-1 {
+  background-image: url(jackson.jpeg);
+}
+
+.card-2 {
+  background-image: url(ruth.jpg);
+}
+
+.card-3 {
+  background-image: url(daisy.jpg);
+}
+
+.card-4 {
+  background-image: url(mannix.jpg);
+}
+
+.card-5 {
+  background-image: url(bob.jpg);
+}
+
+.card-6 {
+  background-image: url(oswaldo.jpg);
+}
+
+.card-7 {
+  background-image: url(gage.jpg);
+}
+
+.card-8 {
+  background-image: url(sandy.jpg);
+}
+
+.actor, .role, .rating, a  {
+  margin-left: 16px;
+}
+
+.actor {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.character {
+  font-size: 14px;
+}
+
+.role {
+  font-size: 14px;
+}
+
+.role-title {
+  font-size: 20px;
+}
+
+.rating {
+  font-size: 18px;
+}
+
+.rating-value {
+  font-size: 22px;
+}
+
+img:hover {
+  opacity: .5;
+}
+
+@media only screen and (max-width: 750px) {
+    .nav {
+      display: inline-flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-top: -41px;
+    }
+
+    .logo {
+      margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .nav {
+      display: inline-flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-top: -41px;
+    }
+
+    .admin {
+      display: flex;
+      justify-content: flex-start;
+      margin-right: 8px;
+      letter-spacing: 3px;
+    }
+
+    .logo {
+      margin-bottom: 35px;
+      margin-right: 40%;
+    }
+}
+
